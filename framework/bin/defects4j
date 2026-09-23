@@ -159,6 +159,24 @@ export a version-specific property.
 =cut
 $cmd_descr{export}="export a version-specific property";
 
+=item * L<B<compile4bugmining>|d4j::d4j-compile4bugmining/>
+
+compile a checked-out project version in bugmining.
+
+=cut
+$cmd_descr{compile4bugmining}="compile a checked-out project version in bugmining";
+
+=pod
+
+=item * L<B<test4bugmining>|d4j::d4j-test4bugmining/>
+
+run tests on a checked-out project version in bugmining.
+
+=cut
+$cmd_descr{test4bugmining}="run tests on a checked-out project version in bugmining";
+
+=pod
+
 =item * L<B<query>|d4j::d4j-query/>
 
 query the metadata for a particular project for automation purposes.
@@ -166,21 +184,6 @@ query the metadata for a particular project for automation purposes.
 =back
 
 =cut
-
-=item * L<B<compile4bugmining>|d4j::d4j-compile4bugmining/>
-
-run tests on a checked-out project version.
-=cut
-$cmd_descr{compile4bugmining}="compile a checked-out project version in bugmining";
-
-=item * L<B<test4bugmining>|d4j::d4j-test4bugmining/>
-
-run tests on a checked-out project version.
-
-=cut
-$cmd_descr{test4bugmining}="run tests on a checked-out project version in bugmining";
-
-
 $cmd_descr{query}="query the metadata for a particular project for automation purposes";
 
 #
